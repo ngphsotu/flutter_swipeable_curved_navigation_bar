@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_swipeable_curved_navigation_bar/tab_bar_screen.dart';
+
+import '/tab_bar_screen.dart';
 
 void main() => runApp(const MyApp());
 

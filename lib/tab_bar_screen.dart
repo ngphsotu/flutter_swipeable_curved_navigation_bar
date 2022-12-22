@@ -18,6 +18,7 @@ class _TabBarScreenState extends State<TabBarScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         title: Text(
           pageDetails[_activePageIndex]['title'],
           style: const TextStyle(
